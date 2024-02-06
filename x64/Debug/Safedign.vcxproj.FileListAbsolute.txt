@@ -1,0 +1,2 @@
+C:\Users\Shon2\source\Safedign\Accepter\Safedign\x64\Debug\Safedign.exe
+C:\Users\Shon2\source\Safedign\Accepter\Safedign_console\x64\Debug\Safedign.exe

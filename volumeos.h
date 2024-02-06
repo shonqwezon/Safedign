@@ -1,23 +1,20 @@
-#ifndef VOLUMEOS_H
-#define VOLUMEOS_H
+#ifndef VOLUME_OS_H
+#define VOLUME_OS_H
+
 #include <mmdeviceapi.h>
 #include <endpointvolume.h>
+#include <iostream>
 
-class VolumeOS
-{
-
+class VolumeOS {
 public:
-    VolumeOS();
-    ~VolumeOS();
-    void changeVolume(bool state);
-    void setNewVolume();
-    void setMinVolume(double minVolume);
+	VolumeOS();
+	~VolumeOS();
+	void changeVolume(bool state);
+	void setMinVolume(double minVolume);
 
 private:
-    HRESULT hr{ 0 };
-    float minVolume{ 0.1f };
-    float currentVolume{ -1.0f };
-    bool modeNewValue{ false };
+	HRESULT hr{ 0 };
+	float minVolume{ 0.0f };
+	float currentVolume{ -1.0f };
 };
-
-#endif // VOLUMEOS_H
+#endif
