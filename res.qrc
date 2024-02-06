@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/trayIcons">
+        <file>icons/run.png</file>
+        <file>icons/stop.png</file>
+    </qresource>
+</RCC>
